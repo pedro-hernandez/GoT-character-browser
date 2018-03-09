@@ -8,11 +8,15 @@ Your goal is to read data from the Game of Thrones character API and create a we
 
 Create an HTML page that embeds a separate JavaScript file.
 
-Make an AJAX request to the first page of [the character list in the Game of Thrones API](https://www.anapioficeandfire.com/api/characters?page=1&pageSize=50), and render each separate character in a list.
+Make an AJAX request to the first page of [the character list in the Game of Thrones API](https://www.anapioficeandfire.com/api/characters?page=1&pageSize=50), and render each separate character in a list, along with the info about the characters you think is useful.
 
 ## Step Two
 
 Add a "Next" and "Previous" Button, which will move to the next "page" of character results from the API.
+
+## Bonus
+
+Make your page responsive, and add some nice style to the results.
 
 ## Introduction
 
