@@ -1,4 +1,4 @@
-# More JSON Practice!!!
+# Game of Thrones Character Browser Lab
 
 You've had some practice with the Game of Thrones API, now it's time to put that data in the DOM! 
 
