@@ -1,27 +1,20 @@
-# Game of Thrones Character Browser Lab
+# Game of Thrones Character Browser Homework
 
-You've had some practice with the Game of Thrones API, now it's time to put that data in the DOM! 
+[An API of Ice and Fire](https://www.anapioficeandfire.com/) is an open-access REST API that includes information about characters, houses, and books from the action-packed high-fantasy epic.
 
-Your goal is to read data from the Game of Thrones character API and create a webpage that displays that data.
+In this homework, you'll make a webpage to browse through the characters in Game of Thrones.
 
-## Step One
+1. Look at an example of the API data in the characters endpoint:
 
-Create an HTML page that embeds a separate JavaScript file.
+    [`https://www.anapioficeandfire.com/api/characters?page=1&pageSize=50`](https://www.anapioficeandfire.com/api/characters?page=1&pageSize=50)
 
-Make an AJAX request to the first page of [the character list in the Game of Thrones API](https://www.anapioficeandfire.com/api/characters?page=1&pageSize=50), and render each separate character in a list, along with the info about the characters you think is useful.
-
-## Step Two
-
-Add a "Next" and "Previous" Button, which will move to the next "page" of character results from the API.
+   There's also [documentation on this endpoint](https://www.anapioficeandfire.com/Documentation#characters) if it's useful.
+1. Create an HTML page that embeds a separate JavaScript file.
+1. On page load, make an AJAX request to the first page of the characters endpoint, and render each separate character into the DOM.
+   Hint: Some characters don't have names, so you'll have to use their first alias in this case.
+1. Add a "Next" Button. When a user clicks on the button, make an AJAX call to the next page of results in the API, and replace the displayed list of characters with the new results.
+1. Add a "Previous" Button, which should have similar functionality to the "Next" button but in the reverse direction.
 
 ## Bonus
 
 Make your page responsive, and add some nice style to the results.
-
-## Introduction
-
-Make use of the fantastic GOT api:
-https://anapioficeandfire.com/
-
-Check out the documentation here:
-https://anapioficeandfire.com/Documentation
