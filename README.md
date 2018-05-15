@@ -12,9 +12,8 @@ In this homework, you'll make a webpage to browse through the characters in Game
 1. Create an HTML page that embeds a separate JavaScript file.
 1. On page load, make an AJAX request to the first page of the characters endpoint, and render each separate character into the DOM.
    Hint: Some characters don't have names, so you'll have to use their first alias in this case.
+   
+## Bonus
 1. Add a "Next" Button. When a user clicks on the button, make an AJAX call to the next page of results in the API, and replace the displayed list of characters with the new results.
 1. Add a "Previous" Button, which should have similar functionality to the "Next" button but in the reverse direction.
-
-## Bonus
-
-Make your page responsive, and add some nice style to the results.
+1. Make your page responsive, and add some nice style to the results.
