@@ -10,7 +10,7 @@ In this homework, you'll make a webpage to browse through the characters in Game
 
    There's also [documentation on this endpoint](https://www.anapioficeandfire.com/Documentation#characters) if it's useful.
 1. Create an HTML page that embeds a separate JavaScript file.
-1. On page load, make an AJAX request to the first page of the characters endpoint, and render each separate character into the DOM.
+1. On page load, run an asyc function that uses uses Fetch to make an AJAX request to the first page of the characters endpoint, and render each separate character into the DOM.
    Hint: Some characters don't have names, so you'll have to use their first alias in this case.
    
 ## Bonus
